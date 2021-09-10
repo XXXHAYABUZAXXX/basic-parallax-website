@@ -33,4 +33,94 @@ html {
   background: url("/image/image-4.jpg");
   min-height: 100%;
 }
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+section {
+  text-align: center;
+  padding: 50px 80px;
+  text-transform: capitalize;
+}
+
+section h2 {
+  margin: 1rem 0;
+}
+
+section p {
+  margin: 1rem 0;
+  text-transform: none;
+}
+
+.light-color {
+  background: #f4f4f4;
+}
+
+.dark-color {
+  background: #282e34;
+  color: #ddd;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+}
+
+header .text {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.image-2,
+.image-3,
+.image-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+
+.border {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.trans {
+  background: transparent;
+}
+
+@media (max-width: 568px) {
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4 {
+    background-attachment: scroll;
+  }
+}
 /*# sourceMappingURL=style.css.map */
